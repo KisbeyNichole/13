@@ -1,0 +1,53 @@
+body {
+    background-color:#ffe6b7;
+}
+
+/*navbar*/
+#navbar {
+    background-color: #6d8d58;
+    color:antiquewhite;
+    padding: 1em;
+}
+
+#navbar ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#navbar ul li {
+    margin-right: 10px;
+}
+
+#navbar ul li a:hover {
+    background-color: burlywood;
+    text-decoration: dashed;
+    color:#4d0e07;
+    text-decoration: underline;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color:blanchedalmond;
+    font-size:24px;
+}
+
+/* Form */
+
+#loginForm {
+    display: flex;
+    margin: 0 auto;
+    flex-direction:column;
+    max-width: fit-content;
+    align-items: center;
+    margin-top: 1em;
+    border: 1px;
+    border-color: brown;
+    border-style:dotted;
+    padding: 15px;
+}
+
+#loginForm button {
+    margin-top: 1em;
+}
